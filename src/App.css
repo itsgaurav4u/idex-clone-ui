@@ -1,38 +1,153 @@
-.App {
-  text-align: center;
+.header{
+  height:70px;
+  width: 100%;
+ position:fixed;
+ background:#fff;
+ z-index: 2;
+ align-items: center;
+ box-shadow: 0 4px 20px rgb(201 206 213 / 25%);
+ 
+  display:flex;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header .ideximg img {
+  height:40px;
+  margin-left: 80px;
+  display: inline-flex;
+  cursor: pointer;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.menu{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-end;
+}
+.menu{
+  width:100%;
+  margin-right: 8%;
+  height:fit-content;
+}
+.menu-group {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-weight: 700;
+    margin-left: 53%;
+}
+button{
+  height: 50px;
+  width:170px;
+  background: #2d8dfc;
   color: white;
+  border-radius: 4px;
+  border:none;
 }
+.background{
+  display: flex;
+  width: 100%;
+  z-index: 1;
+  display-direction: row;
+  background-color: #f5f9ff;
+}
+.bg1{
+  width: 75%;
+}
+.bg2{
+  width: 30%;
+  margin-top:15%;
+}
+.top{
+  position: absolute;
+  top: 0px;
+  left: 30%;
+}
+.background h2{
+  position: relative;
+  padding-top: 176px;
+  text-align: center;
+  font-size: 50px;
+  line-height: 1.28;
+  color: rgba(51,51,51,.87);
 
-.App-link {
-  color: #61dafb;
 }
+.background p{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+    margin-top: 50%;
+    font-size: 21px;
+    line-height: 1.48;
+    color: rgba(51,51,51,.6);
+}
+.idexbutton button{
+  height: 50px;
+    width: 170px;
+    background: #2d8dfc;
+    color: white;
+    margin-top: 100px;
+    margin-left: 37%;
+    border-radius: 4px;
+    border: none;
+}
+.container{
+  display: grid;
+  width:auto; 
+  text-align: center;
+  grid-template-columns: auto auto auto;
+  padding: 0 13%;
+  margin: -10% auto 20px;
+    grid-gap: 43px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  .containeritem{
+    height: 106%;
+    border-radius: 4px;
+    background-image: linear-gradient(0deg,#fbfbfb,#fafafa);
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   }
-}
+  .containeritem img{
+    text-align: center;
+  }
+  .containeritem p{
+    font-weight: 700;
+  }
+  .containeritem span{
+    text-align: left;
+    font-size: 14px;
+    color: rgba(51,51,51,.6);
+  }
+  .workcontainer h2{
+    text-align: center;
+    margin-top:5%;
+    font-size: 50px;
+    color: rgb(51 51 51 / 87%);
+  }
+ .left1{
+   width: 100%;
+ }
+ .discription{
+  display: flex;
+ }
+ .discription p{
+  color: #2d8dfc;
+  font-size: 28px;
+ }
+ .content{
+  width: 75%;
+  position: relative;
+  left: 3%;
+  margin-top: 0%;
+  text-align: left;
+  color: grey;
+ }
+ .left1{
+   display: flex;
+ }
+ .text{
+  position: relative;
+  left: 15%;
+  margin-top: 5%;
+
+ }
+ .video1 video{
+   height:75%;
+   width: 100%;
+ }
