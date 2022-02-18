@@ -6,6 +6,8 @@ import images2 from './bg2.png';
 import  YourSvg  from './bulb.svg';
 import tik from './tick.svg';
 import vid from './video1.mp4';
+import vid1 from './video2.mp4';
+import vid2 from './video3.mp4';
 
 function App() {
   return (
@@ -89,12 +91,43 @@ function App() {
          </div>
          </div>
          <div className="video1">
-            <video   autoplay  src={vid} ></video>
+            <video controlslist="nodownload" autoPlay controls src={vid} ></video>
          </div>
        
      </div>
+     <div className="left2">
+       <div className="text1">
+         <div className="discription1">
+           <img src={tik} alt="tick"></img>
+           <p>Plan & Organize</p>
+           </div>
+           <div className="content1">
+           Create projects within your teams to manage your workflow. You can use projects for just about 
+           anything, from managing sprints, deadline-driven scheduling, ongoing processes, or storing backlog.
+         </div>
+         </div>
+         <div className="video2">
+           <video src={vid1} autoPlay controls alt="video"></video>
+         </div>
      
-   </div>
+      </div>
+      <div className="left3">
+        <div className="discription3">
+          <div className="text3">
+            <img src={tik} alt="tick"></img>
+            <p>Visualize & Implement</p>
+          </div>
+          <div className="content3">
+          Switch between list, board, or calendar view to visualize your work. Use list view to prioritize 
+          tasks and assign them. Use board view to identify the stages of the tasks and focus on things at hand. 
+          Use calendar view to map out tasks over time and give the entire team a common vision to work towards.
+          </div>
+        </div>
+        <div className="video3">
+         <video src={vid2} controls autoPlay alt="video"></video>
+        </div>
+      </div>
+    </div>
   </div>
   );
 }

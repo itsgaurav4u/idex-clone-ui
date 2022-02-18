@@ -131,7 +131,7 @@ button{
   font-size: 28px;
  }
  .content{
-  width: 75%;
+  width: 60%;
   position: relative;
   left: 3%;
   margin-top: 0%;
@@ -147,7 +147,77 @@ button{
   margin-top: 5%;
 
  }
- .video1 video{
-   height:75%;
+ .video1{
+   height:100%;
    width: 100%;
+   margin-right: 10%;
+ }
+ .video1 video{
+   height:100%;
+   width: 95%;
+ }
+ .left2{
+   width: 100%;
+   margin-top: 5%;
+   padding: 5% 0%;
+   display: flex;
+   flex-direction: row-reverse;
+   background: #fafafa;
+ }
+ .discription1{
+   display: flex;
+ }
+ .video2 video{
+   height:100%;
+   width: 95%;
+ }
+ .discription1 p{
+  color: #2d8dfc;
+  font-size: 28px;
+ }
+ .content1{
+  margin-top: 0%;
+  text-align: left;
+  color: grey;
+  width: 70%;
+ }
+ .video2{
+   margin-left: 15%;
+   width: 100%;
+   height: 100%;
+ }
+ .text1{
+   margin-top:5%;
+ }
+ .left3{
+  display: flex;
+  padding: 5% 1%;
+ }
+ .test3{
+   display: flex;
+ }
+ .video3{
+   height: 100%;
+   width: 150%;
+   margin-right: 10%;
+ }
+ .video3 video{
+   height: 100%;
+   width: 100%;
+ }
+ .content3{
+   width: 60%;
+   color: grey;
+ }
+ .text3{
+   display: flex;
+ }
+ .discription3 p{
+  color: #2d8dfc;
+  font-size: 28px;
+ }
+ .discription3{
+  position: relative;
+  left: 15%;
+  margin-top: 5%;
  }
